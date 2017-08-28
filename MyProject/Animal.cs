@@ -10,5 +10,18 @@ namespace MyProject
     {
         private int _age;
         private string _name;
+
+        public int Age
+        {
+            get
+            {
+                return _age;
+            }
+
+            set
+            {
+                _age = value;
+            }
+        }
     }
 }
