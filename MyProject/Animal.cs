@@ -24,7 +24,7 @@ namespace MyProject
             }
         }
 
-        public string Namedadad
+        public string Name
         {
             get
             {
@@ -35,6 +35,13 @@ namespace MyProject
             {
                 _name = value;
             }
+        }
+
+        public string Name2 { get; set; }
+
+        public int SomeMethod()
+        {
+            return default(int);
         }
     }
 }
