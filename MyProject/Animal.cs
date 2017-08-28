@@ -37,11 +37,6 @@ namespace MyProject
             }
         }
 
-        public int DoSomething()
-        {
-            return default(int);
-        }
-
         public int NewMethod()
         {
             return default(int);
