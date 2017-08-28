@@ -24,7 +24,7 @@ namespace MyProject
             }
         }
 
-        public string Name
+        public string Namedadad
         {
             get
             {
