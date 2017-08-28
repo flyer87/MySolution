@@ -10,5 +10,10 @@ namespace MyProject
     {
         private int _age;
         private string _name;
+
+        public int NewMethod()
+        {
+            return default(int);
+        }
     }
 }

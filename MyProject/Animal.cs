@@ -41,5 +41,10 @@ namespace MyProject
         {
             return default(int);
         }
+
+        public int NewMethod()
+        {
+            return default(int);
+        }
     }
 }
