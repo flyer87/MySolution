@@ -35,6 +35,11 @@ namespace MyProject
             {
                 _name = value;
             }
-        }        
+        }
+
+        public int DoSomething()
+        {
+            return default(int);
+        }
     }
 }
