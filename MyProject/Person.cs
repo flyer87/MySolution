@@ -8,7 +8,7 @@ namespace MyProject
 {
     class Person
     {
-        private int _age1;
+        private int _age;
         private string _name;
         private string _address;
         private int _zip;
@@ -29,12 +29,12 @@ namespace MyProject
         {
             get
             {
-                return _age3;
+                return _age;
             }
 
             set
             {
-                _age3 = value;
+                _age = value;
             }
         }
 
