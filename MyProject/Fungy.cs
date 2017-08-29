@@ -8,7 +8,7 @@ namespace MyProject
 {
     class Fungy
     {
-        private int _age;
+        private int _age3;
         private string _name;
         private string _color;
 
@@ -27,8 +27,8 @@ namespace MyProject
 
         public int Age
         {
-            get { return _age; }
-            set { _age = value; }
+            get { return _age3; }
+            set { _age3 = value; }
         }
 
     }
