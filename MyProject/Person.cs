@@ -10,6 +10,13 @@ namespace MyProject
     {
         private int _age;
         private string _name;
+        private string _address;
+
+        public string Address
+        {
+            get { return _address; }
+            set { _address = value; }
+        }
 
         public int Age
         {
