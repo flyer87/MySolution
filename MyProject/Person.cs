@@ -8,7 +8,7 @@ namespace MyProject
 {
     class Person
     {
-        private int _age;
+        private int _age2;
         private string _name;
         private string _address;
         private int _zip;
