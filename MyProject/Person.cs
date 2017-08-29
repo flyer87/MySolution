@@ -11,6 +11,13 @@ namespace MyProject
         private int _age;
         private string _name;
         private string _address;
+        private int _zip;
+
+        public int Zip
+        {
+            get { return _zip; }
+            set { _zip = value; }
+        }
 
         public string Address
         {
